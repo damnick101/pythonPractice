@@ -10,3 +10,6 @@ git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/pythonPractice.git
 git push -u origin main
 
+python activate
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+.\.venv\Scripts\Activate.ps1
