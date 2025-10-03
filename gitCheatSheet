@@ -1,0 +1,12 @@
+
+
+git config --global user.email "johndoe@gmail.com"
+git config --global user.name "johndoe"
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/pythonPractice.git
+git push -u origin main
+
