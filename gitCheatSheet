@@ -13,3 +13,8 @@ git push -u origin main
 python activate
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 .\.venv\Scripts\Activate.ps1
+uv init .
+uv add pandas
+
+python commands
+pip freeze > requirements.txt
